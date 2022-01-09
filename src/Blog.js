@@ -13,7 +13,7 @@ function Blog() {
           As redes sociais que mais utilizo :
         </p>
         <p className="heading p__color">
-          Instagram , LinkedIn e GitHub
+          GitHub , LinkedIn e Instagram
         </p>
       </div>
       <div className="container">

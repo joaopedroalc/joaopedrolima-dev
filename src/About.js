@@ -10,7 +10,7 @@ function About() {
        upToTop.classList.toggle("active", window.scrollY > 0)
     });
   return (
-    <div className="about component__space" id="About">
+    <div className="about" id="About">
       <div className="container">
         <div className="row">
           <div className="col__2">
@@ -26,7 +26,7 @@ function About() {
                 Atualmente trabalho como Desenvoledor Front-end na Agência Open Brasil 💻
               </p>
 
-              <span className="stacks">Tecnologias/stacks que desenvolvo</span>
+              <span className="stacks">Tecnologias / stacks às quais desenvolvo</span>
 
               <div>
                 <img align="center" className="icons-tec" alt="jp-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />

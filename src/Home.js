@@ -33,7 +33,7 @@ function Home() {
                 <li className="nav__items mx__15">Projetos</li>
               </a>
               <a href="#Blog">
-                <li className="nav__items mx__15">Blog</li>
+                <li className="nav__items mx__15">Mídias</li>
               </a>
               <a href="#Contact">
                 <li className="nav__items mx__15">Contatos</li>
@@ -72,7 +72,7 @@ function Home() {
               <a href="#Portfolio">Projetos</a>
             </li>
             <li className="sideNavbar">
-              <a href="#Blog">Blog</a>
+              <a href="#Blog">Mídias</a>
             </li>
             <li className="sideNavbar">
               <a href="#Contact">Contatos</a>
@@ -86,7 +86,7 @@ function Home() {
           <div className="home__content">
             <div className="home__meta">
               <h1 className="home__text pz__10">BEM-VINDO AO MEU MUNDO</h1>
-              <h2 className="home__text pz__10">Olá, Eu sou João Pedro Lima</h2>
+              <h2 className="home__text pz__10">Olá, Eu sou <span className="name">João Pedro Lima</span></h2>
               <h3 className="home__text black pz__10">Frontend Developer.</h3>
               <h4 className="home__text pz__10">São Luís - Maranhão.</h4>
             </div>

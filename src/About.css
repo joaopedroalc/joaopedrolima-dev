@@ -1,5 +1,6 @@
 .about{
     background: #191919;
+    padding-top:4rem;
 }
 
 .stacks{
@@ -17,6 +18,9 @@
 
 .infos{
     margin-top:5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img.about__img{
@@ -90,5 +94,14 @@ button.about.btn.pointer {
 }
 .about__meta{
     text-align:inherit;
+}
+.p__color{
+    text-align: justify;
+}
+.infos{
+    margin-top:0rem;
+}
+img.about__img{
+    height: 450px;
 }
 }

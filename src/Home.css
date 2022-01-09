@@ -41,6 +41,12 @@ h2.home__text{
     font-weight: 800;
     font-family: Montserrat,sans-serif;
 }
+.name{
+    display: inline;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+}
 h3.home__text{
     font-size: 43px;
     font-weight: 800;
@@ -100,10 +106,22 @@ svg.bi.bi-justify.white.pointer {
     width: 30px;
     height: 30px;
 }
+.container{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:50px;
+}
+
 }
 @media only screen and (max-width: 425px){
     h2.home__text.pz__10{
-    font-size: 36px;
+    font-size: 30px;
+}
+.name{
+    display: block;
+    font-size: 38px;
 }
 h3.sweet.pz__10 {
     font-size: 40px;
@@ -127,14 +145,6 @@ h4.home__text{
     line-height: 40px;
     font-family: Montserrat,sans-serif;
     
-}
-
-.container{
-    display:flex;
-    flex-direction:column-reverse;
-    justify-content: center;
-    align-items: center;
-    padding-bottom:50px;
 }
 
 .perfil-container img{
