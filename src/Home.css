@@ -106,6 +106,40 @@ ul.sidebar.d__flex {
 li.sideNavbar{
     padding: 25px 30px;
 }
+
+@media only screen and (max-width: 1024px){
+    h2.home__text.pz__10{
+        font-size: 30px;
+    }
+    .name{
+        display: block;
+        font-size: 36px;
+    }
+    h3.sweet.pz__10 {
+        font-size: 40px;
+    }
+    h1.home__text {
+        font-size: 14px;
+    }
+    h4.home__text {
+        font-size: 45px;
+    }
+    
+    h3.home__text{
+        font-size: 28px;
+        font-weight: 800;
+        font-family: Montserrat,sans-serif;
+        line-height: 40px;
+    }
+    h4.home__text{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 40px;
+        font-family: Montserrat,sans-serif;
+        
+    }
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 768px){
  .header{
@@ -114,9 +148,7 @@ li.sideNavbar{
  .navigation.pxy__30 {
         display: none;
     }
-h2.white.pz__10 {
-    font-size: 50px!important;
-}
+
 svg.bi.bi-justify.white.pointer {
     width: 30px;
     height: 30px;

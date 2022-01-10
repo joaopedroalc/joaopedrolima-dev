@@ -20,9 +20,8 @@ function Project() {
                 </p>
             </div>
             <div className="container">
-                <div className="row">
-
-                    <div className="col__3">
+                <div className="container-projects">
+                    <div>
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -38,7 +37,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div>
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -54,7 +53,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div>
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -70,7 +69,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div>
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -86,7 +85,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div>
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -102,7 +101,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div>
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -116,15 +115,13 @@ function Project() {
                             </div>
                         </div>
                     </div>
-
-                    <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
+                </div>
+            </div>
+                <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
                         <a href="https://www.instagram.com/joaopedrolima.dev">
                             <button className="view__more pointer btn">Veja mais</button>
                         </a>
-                    </div>
-
                 </div>
-            </div>
         </div>
     );
 }

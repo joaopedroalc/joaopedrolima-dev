@@ -16,8 +16,8 @@ function Service() {
       </div>
 
       <div className="container">
-        <div className="row">
-          <div className="col__3">
+        <div className="container-projects">
+          <div>
             <div className="service__box pointer">
               <div className="icon">
                 <svg
@@ -45,7 +45,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div>
             <div className="service__box pointer">
               <div className="icon">
                 <svg
@@ -76,7 +76,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div>
             <div className="service__box pointer">
               <div className="icon">
                 <svg
@@ -108,7 +108,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div>
             <div className="service__box pointer">
               <div className="icon">
                 <svg
@@ -137,7 +137,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div>
             <div className="service__box pointer">
               <div className="icon">
                 <svg
@@ -167,7 +167,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div>
             <div className="service__box pointer">
               <div className="icon">
                 <svg

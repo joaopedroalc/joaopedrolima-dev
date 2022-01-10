@@ -17,8 +17,8 @@ function Blog() {
         </p>
       </div>
       <div className="container">
-          <div className="row">
-              <div className="col__3">
+          <div className="container-projects">
+              <div>
               <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
@@ -34,7 +34,7 @@ function Blog() {
                  </div>
               </div>
 
-              <div className="col__3">
+              <div>
               <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
@@ -50,7 +50,7 @@ function Blog() {
                  </div>
               </div>
 
-              <div className="col__3">
+              <div>
               <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">

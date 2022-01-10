@@ -69,8 +69,6 @@ a.bottom__to__top.active{
     .p__color{
         font-size: 15px!important;
     }
-}
-@media only screen and (max-width: 425px){
     .about__button{
         display:grid !important;
         grid-template-columns: 1fr !important;
@@ -85,6 +83,8 @@ a.bottom__to__top.active{
         height: 32px !important;
         margin-left: 5px;
     }
+}
+@media only screen and (max-width: 425px){
 button.about.btn.pointer {
     text-transform: capitalize;
     width: 205px;
