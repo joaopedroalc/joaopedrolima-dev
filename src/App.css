@@ -10,6 +10,27 @@ body{
   background-color: #000;
   font-family: sans-serif;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(221, 2, 2); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(333deg, rgba(0,0,0,1) 0%, rgba(130,0,0,1) 100%);
+}
+
 a{
   text-decoration: none;
   color: #fff;
