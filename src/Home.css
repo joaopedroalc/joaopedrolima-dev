@@ -6,6 +6,18 @@
     background-size: cover;
 }
 
+.wpp{
+    position:fixed;
+    bottom:12%;
+    right:5%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    z-index: 1000;
+    background-color: #191919;
+    border-radius: 20px;
+}
+
 .container{
     display:flex;
     align-items:center;
@@ -44,6 +56,18 @@ li.nav__items{
     padding-bottom: 15px;
 }
 
+.home__text{
+    width: 50vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.home__text .blink{
+    animation: blink 1s infinite;
+    display: inline;
+    font-size:32px;
+  }
+
 h1.home__text{
     font-size: 18px;
     font-weight: 400;
@@ -55,19 +79,36 @@ h2.home__text{
     line-height: 54px;
     font-weight: 800;
     font-family: Montserrat,sans-serif;
+    animation: type 4s steps(60, end); 
 }
 .name{
     display: inline;
     font-size: 48px;
     font-weight: 800;
     font-family: Montserrat,sans-serif;
+    animation: type2 8s steps(60, end);
 }
 h3.home__text{
     font-size: 43px;
     font-weight: 800;
     font-family: Montserrat,sans-serif;
     line-height: 40px;
+    color: #dcdcdc;
 }
+
+@keyframes type{ 
+    from { width: 0; } 
+  } 
+
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
 h4.home__text{
     font-size: 36px;
     font-weight: 800;
@@ -108,6 +149,11 @@ li.sideNavbar{
 }
 
 @media only screen and (max-width: 1024px){
+    .home__text{
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
     h2.home__text.pz__10{
         font-size: 30px;
     }
@@ -163,6 +209,11 @@ svg.bi.bi-justify.white.pointer {
 
 }
 @media only screen and (max-width: 425px){
+    .sideNavbar{
+        font-size: 22px;
+        padding-bottom: 15px;
+        z-index: 10;
+    }
     h2.home__text.pz__10{
     font-size: 30px;
 }

@@ -1,7 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import logo from './assets/pc.webp';
 import perfil from "./assets/perfil.jpg";
+import wpp from './assets/wpp.png';
 
 function Home() {
   // fixed Header
@@ -10,9 +11,13 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-   const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
+      <a href="https://api.whatsapp.com/send?phone=5598987840025">
+        <img src={wpp} alt="wpp" className="wpp" />
+      </a>
+
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
@@ -56,39 +61,39 @@ function Home() {
               />
             </svg>
           </div>
-          {show ?(
-          <div className="sideNavbar">
+          {show ? (
+            <div className="sideNavbar">
               <ul className="sidebar d__flex">
-              <li className="sideNavbar">
-              <a href="#Home">Início</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#About">Sobre</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#Services">Habilidades</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#Portfolio">Projetos</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#Blog">Mídias</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#Contact">Contatos</a>
-            </li>
+                <li className="sideNavbar">
+                  <a href="#Home">Início</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#About">Sobre</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Services">Habilidades</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Portfolio">Projetos</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Blog">Mídias</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Contact">Contatos</a>
+                </li>
               </ul>
-          </div>
-           ) : null}
+            </div>
+          ) : null}
         </div>
         {/* HOME CONTENT */}
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10">BEM-VINDO AO MEU MUNDO</h1>
-              <h2 className="home__text pz__10">Olá, Eu sou <span className="name">João Pedro Lima</span></h2>
-              <h3 className="home__text black pz__10">Frontend Developer.</h3>
-              <h4 className="home__text pz__10">São Luís - Maranhão.</h4>
+              <h1 className="home__text pz__10" style={{ marginTop: '25px' }}>BEM-VINDO AO MEU MUNDO</h1>
+              <h2 className="home__text pz__10">Oi, Eu sou <span className="name">João Pedro Lima <span class="blink">:)</span></span></h2>
+              <h3 className="home__text pz__10">Front-end Developer ⌨️🖱️</h3>
+              <h4 className="home__text pz__10">São Luís - Maranhão 🌴🏖️</h4>
             </div>
           </div>
 
