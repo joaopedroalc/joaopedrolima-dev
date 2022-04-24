@@ -10,7 +10,7 @@ function Footer() {
     >
       <div className="footer container-footer d__flex align__items__center justify__content__space__between">
       <img src={logo} alt="" className="footer__img pointer" width={65} height={65} />
-      <span>@joaopedrolima.dev</span>
+      <span>@joaopedrocode</span>
       </div>
       <span
         className="copyright"

@@ -61,7 +61,7 @@ function Blog() {
                       <div className="Blog__meta absolute">
                          <h5 className="project__text">Instagram</h5>
                          <h4 className="project__text">Posto meus projetos e interajo com a comunidade</h4>
-                         <a href="https://www.instagram.com/joaopedrolima.dev" className="blog project__btn btn">Veja Mais</a>
+                         <a href="https://www.instagram.com/joaopedrocode" className="blog project__btn btn">Veja Mais</a>
                        </div>
                  </div>
               </div>
