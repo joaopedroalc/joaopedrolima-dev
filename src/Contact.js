@@ -16,9 +16,9 @@ function Contact() {
                             <div className="input__box">
                                 <input type="text" className="contact name" placeholder="Seu nome *" />
                                 <input type="text" className="contact email" placeholder="Seu Email *" />
+                                <input type="hidden" name="_cc" value="joaopedro.ufma@gmail.com" />
                                 <textarea name="message" id="message" placeholder="Escreva sua mensagem"></textarea>
                                 <button className="btn contact pointer" type="submit">Enviar</button>
-                                <input type="hidden" name="_cc" value="joaopedro.ufma@gmail.com">
                             </div>
                         </form>
                     </div>
