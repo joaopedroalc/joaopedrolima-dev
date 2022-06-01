@@ -18,6 +18,7 @@ function Contact() {
                                 <input type="text" className="contact email" placeholder="Seu Email *" />
                                 <textarea name="message" id="message" placeholder="Escreva sua mensagem"></textarea>
                                 <button className="btn contact pointer" type="submit">Enviar</button>
+                                <input type="hidden" name="_cc" value="joaopedro.ufma@gmail.com">
                             </div>
                         </form>
                     </div>
